@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio de un Reloj</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Anais Catalina Nuñez Salazar</h1>
+    </header>
+    <section>
+        <article>
+            <h2>Historia de nuestro amor</h2>
+            <p>Nuestra historia comenzo un 05 de Noviembre, a partir de aqui han sucedido bastante acontecimientos que nos han marcado como pareja, una pareja solida y hermosa llena de alegrias, tambien de tristeas pero que han sabido salir adelante a pesar de las dificultades </p>
+        </article>
+        
+        <article>
+            <h2>Virtudes de Anais</h2>
+            <ul>
+                <li><strong>Preciosa:</strong> Eres una mujer realmente hermosa.</li>
+                <li><strong>Inteligente:</strong> Eres una mujer demasiado inteligente, que siempre esta en un constante aprendizaje con su carrera de enfermera.</li>
+                <li><strong>Excelente Madre:</strong> Eres una gran madre, el agus tiene suerte de tener una madre guerrera y fuerte como tu.</li>
+                <li><strong>Persona Unica:</strong> Con el tiempo me has demostrado que a pesar de la vida que nos ha tocado en nuestro pasado, podemos ser mucho mejores en el presente y futuro.</li>
+            </ul>
+        </article>
+        
+        <article>
+            <h2>Estoy realmente enamorado de Ti</h2>
+            <p>Amo cada una de nuestras locuras, me encantan nuestras risas, nuestros momentos de estupideces, contigo es todo genial amor, siempre quiero permanecer a tu lado,  si Dios me lo permite tener una hermosa familia contigo.</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Te amo Anais. Todos los derechos reservados.</p>
+    </footer>
+    <button onclick="toggleInfo()">Mostrar más información</button>
+<p id="info" style="display:none;">Te gustaria ser mi novia de toda la vida?.</p>
+
+<script>
+    function toggleInfo() {
+        var info = document.getElementById("info");
+        if (info.style.display === "none") {
+            info.style.display = "block";
+        } else {
+            info.style.display = "none";
+        }
+    }
+</script>
+
+</body>
+</html>
